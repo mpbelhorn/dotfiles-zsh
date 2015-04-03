@@ -1,0 +1,2 @@
+alias mint-forward='ssh -fNL 8088:localhost:8089 matt@mint'
+alias hgit='vcsh'
