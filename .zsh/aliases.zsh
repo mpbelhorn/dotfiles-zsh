@@ -26,6 +26,7 @@ alias gocli='ssh gocli'
 
 ## Batch System
 alias myq='qstat -au "$USER"'
+alias qsubi='qsub -I -A stf007 -q batch -l nodes=1,walltime=01:00:00'
 
 ## Environment Modules
 alias mlo='module load'
