@@ -35,3 +35,12 @@ function smithy () {
     smithy $@
   fi
 }
+
+function renewcomp() {
+  local f
+  f=(~/.zsh/completion/*(.))
+
+  unfunction $f:t 2> /dev/null
+  autoload -U $f:t
+
+}
