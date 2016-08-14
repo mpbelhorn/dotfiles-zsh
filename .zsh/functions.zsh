@@ -25,3 +25,13 @@ function ibj () {
   fi
   qsub -I -lnodes=$nodes -Astf007 -lwalltime=$walltime
 }
+
+function smithy () {
+  if [ -z "${SMITHY_PREFIX}" ]; then
+    module unload python
+    source /sw/tools/smithy/environment.sh
+    smithy $@
+  else
+    smithy $@
+  fi
+}
