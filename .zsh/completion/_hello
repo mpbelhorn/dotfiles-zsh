@@ -1,6 +1,0 @@
-#compdef hello
-
-_arguments "1: :(World)" \
-    "2:Countries:(US DE JP)"\
-    "*:Cities:((cincy\:US berlin\:DE tokyo\:JP))"
-
