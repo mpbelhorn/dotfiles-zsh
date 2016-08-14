@@ -27,6 +27,8 @@ if test -n "$SSH_CONNECTION"; then
   fi
 fi
 
+export PROJ="/ccs/proj/stf007"
+
 # Let following init files know this has been read.
 export LOCAL_ZSHENV_READ="True"
 export ACCOUNT='stf007'
