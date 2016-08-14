@@ -8,9 +8,9 @@
 #  7: /etc/zlogin if login is True else pass
 #  8: ~/.zlogin if login is True else pass
 
-if [ -d /sw/cave/tmux/1.8/centos5.10_gnu4.1.2/bin ]; then
-  export PATH=$PATH:/sw/cave/tmux/1.8/centos5.10_gnu4.1.2/bin
-fi
+# if [ -d /sw/cave/tmux/1.8/centos5.10_gnu4.1.2/bin ]; then
+#   export PATH=$PATH:/sw/cave/tmux/1.8/centos5.10_gnu4.1.2/bin
+# fi
 
 if [ -d $HOME/.local/bin ]; then
   export PATH=$PATH:$HOME/.local/bin
